@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/certification-tracking.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.counterfeit-prevention]
+path = 'contracts/counterfeit-prevention.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
